@@ -11,12 +11,12 @@ body {
     width: 100%;
     margin: 0;
     padding: 0;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     background: #0f0c29;  
-background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
-background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
+    background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  
+    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); 
 
 
 }
@@ -145,3 +145,183 @@ img {
 
 
 
+@media screen and (max-width:800px) {
+    
+    /* body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+
+
+    .container-grid {
+        display: grid;
+        margin: 0;
+        gap: 25px;
+        grid-template-columns: repeat(2,170px);
+        grid-template-rows: repeat(4,200px);
+        height: auto;
+    }
+    
+    .imagen-grid-1 {
+        position: relative;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 6;
+        grid-row-end: 6;
+    }
+    
+    .imagen-grid-2 {
+        position: relative;
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+    
+    
+    
+    .imagen-grid-3 {
+        position: relative;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 4;
+    }
+    
+    .imagen-grid-4 {
+        position: relative;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    
+    .imagen-grid-5 {
+        position: relative;
+        grid-column-start: 2;
+        grid-column-end: 2;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+    
+    .imagen-grid-6 {
+        position: relative;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 5;
+        grid-row-end: 5;
+    }
+    
+    .imagen-grid-7 {
+        position: relative;
+        grid-row-start: 4;
+        grid-row-end: 3;
+    }
+    
+    .imagen-grid-8 {
+        position: relative;
+        grid-row-start: 3;
+        grid-row-end: 5;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        
+    }
+    
+    .texto-Int p{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        text-align: center;
+    }
+    
+}
+
+@media screen and (max-width:500px) {
+    
+    /* body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    } */
+
+
+    .container-grid {
+        display: grid;
+        margin: 0;
+        gap: 25px;
+        grid-template-columns: repeat(1,200px);
+        grid-template-rows: repeat(11,150px);
+        height: auto;
+    }
+    
+    .imagen-grid-1 {
+        position: relative;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+    
+    .imagen-grid-2 {
+        position: relative;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+    
+    
+    
+    .imagen-grid-3 {
+        position: relative;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 3;
+        grid-row-end: 4;
+    }
+    
+    .imagen-grid-4 {
+        position: relative;
+
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    
+    .imagen-grid-5 {
+        position: relative;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 5;
+        grid-row-end: 7;
+    }
+    
+    .imagen-grid-6 {
+        position: relative;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 7;
+        grid-row-end: 8;
+    }
+    
+    .imagen-grid-7 {
+        position: relative;
+        grid-column-start: 1;
+        grid-column-end: 1;
+        grid-row-start: 8;
+        grid-row-end: 9;
+    }
+    
+    .imagen-grid-8 {
+        position: relative;
+        grid-row-start: 1;
+        grid-row-end: 1;
+        grid-column-start: 9;
+        grid-column-end: 10;
+        
+    }
+    
+    .texto-Int p{
+        font-size: 1.5rem;
+        line-height: 1.5rem;
+        text-align: center;
+    }
+    
+}
